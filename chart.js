@@ -1,7 +1,3 @@
-let myScript = document.createElement("script");
-myScript.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js");
-document.body.appendChild(myScript);
-
 function insertChart () {
     setTimeout(function() {
         new Chart(document.getElementById("myChart"), {
