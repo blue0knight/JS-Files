@@ -1,5 +1,4 @@
-function insertChart () {
-    setTimeout(function() {
+function insertChart () {    
         new Chart(document.getElementById("myChart"), {
     type: 'pie',
     data: {
@@ -17,8 +16,5 @@ function insertChart () {
       }
     }
 });
-    }, 500);
-    
-}
-
+    }
 insertChart();
